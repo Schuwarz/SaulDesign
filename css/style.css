@@ -1,0 +1,12 @@
+/* Сбрасываем стили браузера и подключаем шрифты */
+@import url('reset.css');
+@import url('font.css');
+
+/* Подключаем глобальные стили */
+@import url('globals.css');
+
+/* Подключаем стили секций одним файлом */
+@import url('sections/sections.css');
+
+/* Подключаем стили адаптива */
+@import url('media.css');

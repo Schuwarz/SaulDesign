@@ -1,0 +1,41 @@
+.header {
+  padding-top: 130px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.header__content {
+  max-width: 601px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 96px;
+  margin-bottom: 48px;
+}
+
+.header__button-box {
+  display: flex;
+}
+
+.header__button-hire {
+  width: 136px;
+  margin-right: 24px;
+}
+
+.header__button-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 223px;
+}
+
+.header__button-download span:first-child {
+  margin-right: 10px;
+}
+
+.header__line {}

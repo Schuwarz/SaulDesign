@@ -1,0 +1,65 @@
+/* Выносим глобальные стили в одтельный файл. Сюда будем писать отступы секциям, блочные элементы и контейнер */
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  font-family: Poppnis, sans-serif;
+  background-color: #222831;
+  color: #EEE;
+}
+
+.container {
+  max-width: 1288px;
+  padding: 0 20px 0;
+  margin: 0 auto;
+}
+
+.section__title {
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+}
+
+.section__title span {
+  color: #00adb5;
+}
+
+.main {}
+
+.works {
+  background: url('../images/my_works/bg.svg') 0 0 / 100% no-repeat;
+}
+
+.section__line {
+  border: 1px solid rgba(238, 238, 238, 0.1);
+  height: 0px;
+  width: 100vw;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 18px;
+  color: #EEE;
+  border-radius: 24px;
+  padding: 10px 32px;
+  height: 47px;
+  background: rgba(57, 62, 70, 0.75);
+  backdrop-filter: blur(4px);
+  transition: .3s;
+}
+
+.button:hover {
+  background: rgba(44, 57, 75, 0.75);
+}
+
+.button--active {
+  background: #00adb5;
+  transition: .3s;
+}
+
+.button--active:hover {
+  background: rgb(0, 133, 139);
+}

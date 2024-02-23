@@ -1,0 +1,8 @@
+/* Собираем стили секций в один файл */
+
+@import url('nav.css');
+@import url('header.css');
+@import url('about.css');
+@import url('works.css');
+@import url('message.css');
+@import url('footer.css');
